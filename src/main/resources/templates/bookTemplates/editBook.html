@@ -3,6 +3,7 @@
         <h4 class="title">Edit Book</h4>
         <p class="category">fill out & click save</p>
     </div>
+
     <div class="content">
         <form th:object="${book}" th:action="@{/book/{id}(id=${book.id})}" th:method="post">
             <div class="form-group">

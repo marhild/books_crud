@@ -44,24 +44,6 @@ public class Book {
 
     public Book(){}
 
-    /**
-     * create book with nor categories
-     *//*
-    public Book(@NotEmpty String title, @NotEmpty String author, Date dateField, String description) {
-        this.title = title;
-        this.author = author;
-        this.dateField = dateField;
-        this.description = description;
-    }
-
-    public Book(@NotEmpty String title, @NotEmpty String author, Set<Category> categories, Date dateField, String description) {
-        this.title = title;
-        this.author = author;
-        this.categories = categories;
-        this.dateField = dateField;
-        this.description = description;
-    }*/
-
     public Set<Category> getCategories() {
         return categories;
     }
